@@ -22,7 +22,8 @@ public class BookControler {
 
     @RequestMapping(value = "/{isbn}", method = RequestMethod.GET)
     public Book getBook(@PathVariable String isbn) {
-        return null;
+
+        return bookRepository.findBookByIsbn(isbn);
     }
 
 }

@@ -13,9 +13,9 @@ public class BookpubApplication {
 		SpringApplication.run(BookpubApplication.class, args);
 	}
 
-	@Bean
-	public StartupRunner schedulerRunner() {
-		return new StartupRunner();
-	}
+	//@Bean
+	//public StartupRunner schedulerRunner() {
+	//	return new StartupRunner();
+	//}
 
 }
